@@ -1,4 +1,3 @@
-
 building_university = {
     possible = {
         always = no
