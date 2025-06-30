@@ -1,0 +1,4 @@
+s:STATE_URUGUAY = {
+    add_homeland = cu:brazilian
+    add_claim = c:UPB
+}
