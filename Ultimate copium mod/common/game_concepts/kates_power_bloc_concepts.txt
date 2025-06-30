@@ -1,1 +1,0 @@
-﻿concept_power_blocs_expanded = {}

@@ -1,7 +1,0 @@
-﻿#########################################
-# COMMUNITY FRAMEWORK DETECTION TRIGGER #
-#########################################
-
-PBE_is_active_trigger = {
-	always = yes
-}
