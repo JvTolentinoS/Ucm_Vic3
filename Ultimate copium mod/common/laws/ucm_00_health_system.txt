@@ -1,0 +1,5 @@
+law_public_health_insurance = {
+	unlocking_technologies = {
+		antibiotics
+	}
+}
