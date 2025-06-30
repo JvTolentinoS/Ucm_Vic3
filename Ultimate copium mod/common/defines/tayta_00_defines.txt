@@ -1,0 +1,10 @@
+﻿NCountry = {
+	DEFAULT_MAX_NUM_COUNTRY_FORMATION_CANDIDATES = 3	
+	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 6			# countries with a lower rank value than this cannot be formation candidates
+}
+
+NPowerBlocs = {
+	COUNTRY_POPULATION_LEVERAGE_RESISTANCE_MODIFIER_DIVISOR = 10000000		# Population divided by this is multiplied by country_leverage_resistance_per_population to give a certain amount of leverage per million people
+}
+
+

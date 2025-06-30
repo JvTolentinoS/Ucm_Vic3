@@ -1,0 +1,19 @@
+﻿interventionism_decision = {
+    is_shown = {
+        has_law = law_type:law_interventionism
+	NOT = { has_variable = interventionism_changed }
+    }
+
+    possible = {
+        is_at_war = no
+    }
+
+    when_taken = {
+        activate_law = law_type:law_interventionism_1
+	set_variable = interventionism_changed
+    }
+
+    ai_chance = {
+        base = -100
+    }
+}
