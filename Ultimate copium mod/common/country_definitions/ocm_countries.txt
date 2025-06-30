@@ -3,7 +3,7 @@ KUK = {
 
 	country_type = recognized
 
-	tier = hegemon
+	tier = hegemony
 
 	capital = STATE_Austria
 	cultures = { south_german hungarian romanian croat czech slovak slovene }
