@@ -1,4 +1,0 @@
-country_literacy_rate = {
-	country_weekly_innovation_add = 150
-	country_tech_spread_add = 90
-}
