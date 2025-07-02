@@ -10,7 +10,7 @@ IBE = {
 	}
 }
 
-UPB = {
+UPB = { #United Kingdom of Portugal and Brazil
     use_culture_states = yes
     
     required_states_fraction = 0.8
@@ -22,10 +22,10 @@ UPB = {
     }
 }
 
-KUK = {
+KUK = { #Danubia Federation
 	use_culture_states = yes
 
-	required_states_fraction = 0.8
+	required_states_fraction = 0.83
 
 	ai_will_do = { always = yes }
 

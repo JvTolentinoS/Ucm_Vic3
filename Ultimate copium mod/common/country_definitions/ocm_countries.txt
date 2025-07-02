@@ -1,7 +1,4 @@
 KUK = {
-	color = { 124 40 30 }
-
-	country_type = recognized
 
 	tier = hegemony
 
@@ -10,7 +7,7 @@ KUK = {
 }
 
 UPB = {
-    color = { 250  181  0 }
+    color = { 28 82 148 }
 
     country_type = recognized
     
