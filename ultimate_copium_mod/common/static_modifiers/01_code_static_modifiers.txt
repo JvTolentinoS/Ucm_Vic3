@@ -34,10 +34,6 @@ government_wages_low = {
 	state_mortality_mult = 0.05
 }
 
-government_wages_medium = {
-
-}
-
 government_wages_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	country_government_wages_mult = 0.15
@@ -79,11 +75,8 @@ avantgarde_intelligentsia = {
 	country_society_tech_research_speed_mult = 0.15
 }
 
-traditional_school = {
-	
+academic_confusion = {
+	icon = gfx\interface\icons\timed_modifier_icons\modifier_lightbulb_negative.dds
+	country_tech_research_speed_mult = -0.3
 }
-
-
-
-
 
