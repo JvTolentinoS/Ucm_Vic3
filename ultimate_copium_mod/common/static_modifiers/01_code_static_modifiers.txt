@@ -1,6 +1,89 @@
+# Make innovation based on literacy rate
+
 country_literacy_rate = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
 	country_weekly_innovation_max_add = 100
 	country_weekly_innovation_add = 150
 	country_tech_spread_add = 90
 }
+
+
+# Government wages influences your country ability to give your population access to public service, such as education and healthcare.
+
+government_wages_very_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_government_wages_mult = -0.3
+	interest_group_ig_intelligentsia_approval_add = -2
+	interest_group_ig_petty_bourgeoisie_approval_add = -2
+	country_prestige_mult = -0.2
+	state_education_access_add = -0.25
+	interest_group_in_government_attraction_mult = -0.1
+	state_radicals_from_political_movements_mult = 0.25
+	state_mortality_mult = 0.10
+}
+
+government_wages_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_government_wages_mult = -0.15
+	interest_group_ig_intelligentsia_approval_add = -1
+	interest_group_ig_petty_bourgeoisie_approval_add = -1
+	country_prestige_mult = -0.1
+	state_education_access_add = -0.1
+	interest_group_in_government_attraction_mult = -0.05
+	state_radicals_from_political_movements_mult = 0.1
+	state_mortality_mult = 0.05
+}
+
+government_wages_medium = {
+
+}
+
+government_wages_high = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_government_wages_mult = 0.15
+	interest_group_ig_intelligentsia_approval_add = 1
+	interest_group_ig_petty_bourgeoisie_approval_add = 1
+	country_authority_mult = 0.05
+	state_education_access_add = 0.075
+}
+
+government_wages_very_high = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_government_wages_mult = 0.3
+	interest_group_ig_intelligentsia_approval_add = 2
+	interest_group_ig_petty_bourgeoisie_approval_add = 2
+	country_authority_mult = 0.1
+	state_education_access_add = 0.15
+}
+
+# TECH SCHOOLS
+
+military_industrial_complex = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_military_tech_research_speed_mult = 0.1
+	country_production_tech_research_speed_mult = 0.05
+	country_society_tech_research_speed_mult = -0.1
+}
+
+corporative_industrialism = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_military_tech_research_speed_mult = -0.1
+	country_production_tech_research_speed_mult = 0.1
+	country_society_tech_research_speed_mult = 0.05
+}
+
+avantgarde_intelligentsia = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_military_tech_research_speed_mult = -0.1
+	country_production_tech_research_speed_mult = 0.05
+	country_society_tech_research_speed_mult = 0.15
+}
+
+traditional_school = {
+	
+}
+
+
+
+
+

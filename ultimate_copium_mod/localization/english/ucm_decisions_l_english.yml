@@ -1,0 +1,13 @@
+﻿l_english: 
+choose_tech_school:0 "Tech School Selection"
+choose_tech_school_desc:0 "Tech school as it is more commonly known is a modifier which will determine what kind of research bonuses/penalties you get to the three major technology categories."
+tech_school_events.1.t:0 "Tech School"
+tech_school_events.1.d:0 "Choose your Tech School"
+tech_school_events.1.f:0 "There are four types of tech schools available, each one provides a buff and debuff to its respective focus, with the exception of the traditional academy since its the default academia for all non-ai nation. It will take 5 years to change tech schools, any country finding itself switching tech focus will suffer tech penalties."
+tech_school_events.1.a:0 "Military-Industrial Complex"
+tech_school_events.1.b:0 "Corporative Industrialism"
+tech_school_events.1.c:0 "Avantgarde Intelligentsia"
+tech_school_events.1.e:0 "Traditional School"
+military_industrial_complex:0 "Military-Industrial Complex"
+corporative_industrialism:0 "Corporative Industrialism"
+avantgarde_intelligentsia:0 "Avantgarde Intelligentsia"

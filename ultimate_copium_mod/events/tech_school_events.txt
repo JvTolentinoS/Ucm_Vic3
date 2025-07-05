@@ -1,0 +1,50 @@
+namespace = tech_school_events
+
+# Escolher o tipo de movimento academico 
+
+tech_school_events.1 = {
+    type = country_event
+    placement = root
+
+    title = tech_school_events.1.t
+    desc = tech_school_events.1.d
+    flavor = tech_school_events.1.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_gears_pistons"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+    
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    option = {
+        name = tech_school_events.1.a
+        add_modifier = {
+            name = military_industrial_complex
+        }
+        set_global_variable = {
+            name = school_chosen
+        }
+    }
+
+    option = {
+        name = tech_school_events.1.b
+        add_modifier = {
+            name = corporative_industrialism
+        }
+    }
+
+    option = {
+        name = tech_school_events.1.c
+        add_modifier = {
+            name = avantgarde_intelligentsia
+        }
+    }
+
+    option = {
+        name = tech_school_events.1.e
+    }
+}  
