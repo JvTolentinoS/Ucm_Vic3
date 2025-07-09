@@ -1,0 +1,18 @@
+KUK = {
+
+	tier = hegemony
+
+	capital = STATE_Austria
+	cultures = { south_german hungarian romanian croat czech slovak slovene }
+}
+
+UPB = {
+    color = { 28 82 148 }
+
+    country_type = recognized
+    
+    tier = empire
+
+    capital = State_Estremadura
+    cultures = { brazilian portuguese }
+}

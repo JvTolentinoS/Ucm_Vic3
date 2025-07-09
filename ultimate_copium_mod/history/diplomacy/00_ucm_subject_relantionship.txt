@@ -1,0 +1,28 @@
+DIPLOMACY = {
+c:RUS ?= {
+		create_diplomatic_pact = {
+			country = c:FIN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:ALK
+			type = chartered_company
+		}
+		create_diplomatic_pact = {
+			country = c:KZH
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:UZH
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:OZH
+			type = protectorate
+		}
+	}
+}

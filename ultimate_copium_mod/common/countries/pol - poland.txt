@@ -1,0 +1,24 @@
+COUNTRIES = {
+	c:POL ?= {	
+
+		effect_starting_technology_tier_2_tech = yes
+		effect_starting_politics_conservative = yes
+
+		set_tax_level = medium
+		
+		# Laws 
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_no_migration_controls
+}
+}
