@@ -1,0 +1,201 @@
+POPS = {	
+    s:STATE_COURLAND = { #DONE
+		region_state:RUS = {
+			create_pop = {
+				culture = latvian
+				size = 354472
+			}
+			create_pop = {
+				culture = north_german
+				size = 35872
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 26432
+			}
+			create_pop = {
+				culture = russian
+				size = 17936
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 12744
+			}
+			create_pop = {
+				culture = polish
+				size = 9440
+			}
+			create_pop = {
+				culture = ugrian
+				religion = protestant
+				size = 2360
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 8496
+			}
+		}
+	}
+	s:STATE_TARTU = { #DONE
+		region_state:RUS = {
+			create_pop = {
+				culture = estonian
+				size = 288007
+			}
+			create_pop = {
+				culture = latvian
+				size = 2207
+			}
+			create_pop = {
+				culture = russian
+				size = 11175
+			}
+			create_pop = {
+				culture = north_german
+				size = 9832
+			}
+		}
+	}
+	s:STATE_TALINN = { #DONE
+		region_state:RUS = {
+			create_pop = {
+				culture = estonian
+				size = 280292
+			}
+			create_pop = {
+				culture = russian
+				size = 15800
+			}
+			create_pop = {
+				culture = swedish
+				size = 4424
+			}
+			create_pop = {
+				culture = north_german
+				size = 12324
+			}
+		}
+	}
+	s:STATE_RIGA = { #DONE
+		region_state:RUS = {
+			create_pop = {
+				culture = latvian
+				size = 459171
+			}
+			create_pop = {
+				culture = north_german
+				size = 54396
+			}
+			create_pop = {
+				culture = estonian
+				size = 10824
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 37183
+			}
+			create_pop = {
+				culture = ugrian #Livs
+				religion = protestant
+				size = 900
+			}
+			create_pop = {
+				culture = polish
+				size = 32501
+			}
+			create_pop = {
+				culture = russian
+				size = 62040
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 4118
+			}
+            create_pop = {
+                culture = byelorussian
+                size = 25190
+		}
+    }
+    s:STATE_MAZOVIA = { #Mazovia - DONE
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 970792
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 180591
+			}
+			create_pop = {
+				culture = north_german
+				size = 39499
+			}
+			create_pop = {
+				culture = russian
+				size = 53083
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 50440
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 21106
+			}
+		}
+	}
+	s:STATE_GREATER_POLAND = { #Warszawa - DONE
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 2004469
+			}
+			create_pop = {
+				culture = polish
+				religion = protestant
+				size = 30000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 358977
+			}
+			create_pop = {
+				culture = north_german
+				size = 134245
+			}
+			create_pop = {
+				culture = russian
+				size = 60600
+			}
+		}
+	}
+	s:STATE_LESSER_POLAND = { #Lublin - DONE
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 633163
+			}
+			create_pop = {
+				culture = polish
+				religion = protestant
+				size = 26000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 117162
+			}
+			create_pop = {
+				culture = north_german
+				size = 19663
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 160774
+			}
+			create_pop = {
+				culture = russian
+				size = 35435
+			}
+		}
+    }
+}
