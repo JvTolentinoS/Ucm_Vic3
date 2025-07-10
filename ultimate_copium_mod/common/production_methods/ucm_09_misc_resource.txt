@@ -15,6 +15,8 @@
 	}
 }
 
+## simple_forestry done
+
 pm_saw_mills = {
 	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
 	unlocking_technologies = {
@@ -38,6 +40,8 @@ pm_saw_mills = {
 		}
 	}
 }
+
+## saw_mills done
 
 pm_electric_saw_mills = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
@@ -67,9 +71,13 @@ pm_electric_saw_mills = {
 	required_input_goods = electricity
 }
 
+## electric_saw_mills done
+
 pm_no_hardwood = {
 	texture = "gfx/interface/icons/production_method_icons/no_hardwood_selection.dds"
 }
+
+## pm_no_hardwood done
 
 pm_hardwood = {
 	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
@@ -81,6 +89,8 @@ pm_hardwood = {
 		}
 	}
 }
+
+## pm_hardwood done
 
 pm_increased_hardwood = {
 	texture = "gfx/interface/icons/production_method_icons/increased_hardwood.dds"
@@ -99,6 +109,8 @@ pm_increased_hardwood = {
 	}
 }
 
+## increased_hardwood done
+
 pm_no_equipment = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 
@@ -108,10 +120,12 @@ pm_no_equipment = {
 		}
 
 		level_scaled = {
-			building_throughput_add = -0.01
+			building_throughput_add = -0.015
 		}
 	}
 }
+
+## pm_no_equipment done
 
 pm_steam_donkey_building_logging_camp = {
 	texture = "gfx/interface/icons/production_method_icons/steam_donkey.dds"
@@ -127,7 +141,7 @@ pm_steam_donkey_building_logging_camp = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_engines_add = 1
+			goods_input_engines_add = 0.5
 			goods_input_coal_add = 1
 		}
 
@@ -138,6 +152,8 @@ pm_steam_donkey_building_logging_camp = {
 		}
 	}
 }
+
+## steam_donkey done
 
 pm_chainsaws = {
 	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
@@ -161,6 +177,8 @@ pm_chainsaws = {
 		}
 	}
 }
+
+## chainsaws done
 
 pm_rail_transport_building_logging_camp = {
 	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
@@ -186,6 +204,8 @@ pm_rail_transport_building_logging_camp = {
 	}
 }
 
+## rail_transport done
+
 pm_log_carts = {
 	texture = "gfx/interface/icons/production_method_icons/log_carts.dds"
 
@@ -200,11 +220,11 @@ pm_log_carts = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_transportation_add = 8
+			goods_input_transportation_add = 1
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -1500
+			building_employment_laborers_add = -300
 		}
 	}
 }
