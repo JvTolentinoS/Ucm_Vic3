@@ -1,0 +1,40 @@
+choose_tech_school = {
+    is_shown = {
+        NOT = { has_global_variable = school_chosen }   
+        OR = {
+            is_ai = no
+        }
+    }
+
+    possible = {
+        NOT = { has_modifier = academic_confusion}
+    }
+
+    when_taken = {
+        if = {
+            limit = {
+                is_player = yes
+            }
+            trigger_event = { id = tech_school_events.1  popup = yes}
+        }
+    }
+}
+
+reset_tech_school = {
+    is_shown = {
+        has_global_variable = school_chosen
+    }
+
+    possible = {
+        always = yes
+    }
+
+    when_taken = {
+        if = {
+            limit = {
+                is_player = yes
+            }
+            trigger_event = { id = tech_school_events.2  popup = yes}
+        }
+    }
+}

@@ -1,0 +1,94 @@
+namespace = tech_school_events
+
+# Escolher o tipo de movimento academico 
+
+tech_school_events.1 = {
+    type = country_event
+    placement = root
+
+    title = tech_school_events.1.t
+    desc = tech_school_events.1.d
+    flavor = tech_school_events.1.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_gears_pistons"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+    
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    option = {
+        name = tech_school_events.1.a
+        desc = tech_school_events.1.a_desc
+        add_modifier = {
+            name = military_industrial_complex
+        }
+        set_global_variable = school_chosen
+    }
+
+    option = {
+        name = tech_school_events.1.b
+        desc = tech_school_events.1.b_desc
+        add_modifier = {
+            name = corporative_industrialism
+        }
+        set_global_variable = school_chosen
+    }
+
+    option = {
+        name = tech_school_events.1.c
+        desc = tech_school_events.1.c_desc
+        add_modifier = {
+            name = avantgarde_intelligentsia
+        }
+        set_global_variable = school_chosen
+    }
+
+    option = {
+        name = tech_school_events.1.e
+        desc = tech_school_events.1.e_desc
+    }
+}  
+
+# reset
+
+tech_school_events.2 = {
+    type = country_event
+    placement = root
+
+    title = tech_school_events.2.t
+    desc = tech_school_events.2.d
+    flavor = tech_school_events.2.f
+
+    duration = 3
+
+    event_image = {
+        video = "unspecific_gears_pistons"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+    
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+    option = {
+        name = tech_school_events.2.a
+        add_modifier = {
+            name = academic_confusion
+            is_decaying = yes
+            months = 60
+        }
+        remove_global_variable = school_chosen
+        hidden_effect = {
+            remove_modifier = avantgarde_intelligentsia
+            remove_modifier = corporative_industrialism
+            remove_modifier = military_industrial_complex
+        }
+    }
+
+    option = {
+        name = tech_school_events.2.b
+    }
+}
