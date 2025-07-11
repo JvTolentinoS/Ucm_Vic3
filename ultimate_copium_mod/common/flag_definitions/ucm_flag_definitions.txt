@@ -1,0 +1,8 @@
+UPB = { # UPB
+	flag_definition = {
+		coa = UPB
+		subject_canton = UPB
+		priority = 1
+		allow_overlord_canton = no
+	}
+}

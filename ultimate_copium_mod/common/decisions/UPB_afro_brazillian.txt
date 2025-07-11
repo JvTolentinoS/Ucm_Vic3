@@ -1,0 +1,23 @@
+UPB_afro_brazilian = {
+	  is_shown = {
+        exists = c:UPB
+        c:UPB = ROOT
+    NOT = { country_has_primary_culture = cu:afro_brazilian }
+     }
+
+     possible = {
+        is_at_war = no
+        has_law = law_type:law_multicultural
+        has_technology_researched = human_rights 
+     }
+
+     when_taken = {
+        add_primary_culture = cu:afro_brazilian
+     }
+
+     ai_chance = {
+    	value = 5
+       	}
+}
+     
+ 

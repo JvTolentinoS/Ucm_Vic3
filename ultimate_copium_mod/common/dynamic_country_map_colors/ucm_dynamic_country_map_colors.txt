@@ -1,0 +1,12 @@
+republican_upb = {
+	color = "green_dark"
+
+	possible = {
+		exists = c:UPB
+		THIS = c:UPB
+		OR = {
+			has_law = law_type:law_parliamentary_republic
+			has_law = law_type:law_presidential_republic
+		}
+	}
+}
