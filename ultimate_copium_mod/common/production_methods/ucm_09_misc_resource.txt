@@ -10,7 +10,7 @@
 		level_scaled = {
 			# employment
 			building_employment_shopkeepers_add = 100
-			building_employment_laborers_add = 1200
+			building_employment_laborers_add = 1100
 		}
 	}
 }
@@ -225,24 +225,36 @@ pm_log_carts = {
 
 		level_scaled = {
 			building_employment_laborers_add = -300
+			building_throughput_add = 0.01	 
 		}
 	}
 }
+
+## log_carts done
 
 default_building_rubber_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
 
 	building_modifiers = {
+
 		workforce_scaled = {
-			goods_output_rubber_add = 30
+			goods_input_tools_add = 2
+			goods_output_rubber_add = 8
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_farmers_add = 1000
+			building_employment_laborers_add = 800
+			building_employment_farmers_add = 200
+			building_throughput_add = -0.01
+		}
+
+		unscaled = {
+			building_laborers_mortality_mult = 1
 		}
 	}
 }
+
+## default_building_rubber_plantation done
 
 automatic_irrigation_building_rubber_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
@@ -259,17 +271,23 @@ automatic_irrigation_building_rubber_plantation = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5
-			goods_output_rubber_add = 60
+			goods_input_engines_add = 1.5
+			goods_output_rubber_add = 15
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 3000
-			building_employment_farmers_add = 1500
-			building_employment_machinists_add = 500
+			building_employment_laborers_add = 600
+			building_employment_farmers_add = 300
+			building_employment_machinists_add = 100
+		}
+
+		unscaled = {
+			building_laborers_mortality_mult = 0.5
 		}
 	}
 }
+
+## automatic_irrigation_building_rubber_plantation done
 
 pm_simple_fishing = {
 	texture = "gfx/interface/icons/production_method_icons/simple_fishing.dds"
