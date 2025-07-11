@@ -1,0 +1,44 @@
+﻿l_english:
+## Options 1
+choose_tech_school:0 "Tech School Selection"
+choose_tech_school_desc:0 "Tech school as it is more commonly known is a modifier which will determine what kind of research bonuses/penalties you get to the three major technology categories."
+
+## Options 2
+reset_tech_school:0 "Restore Academia"
+reset_tech_school_desc:0 "Tech school as it is more commonly known is a modifier which will determine what kind of research bonuses/penalties you get to the three major technology categories."
+
+## Choose
+tech_school_events.1.t:0 "Tech School"
+tech_school_events.1.d:0 "Choose your Tech School"
+tech_school_events.1.f:0 "There are four types of tech schools available, each one provides a buff and debuff to its respective focus, with the exception of the traditional academy since its the default academia for all non-ai nation. It will take 5 years to change tech schools, any country finding itself switching tech focus will suffer tech penalties."
+
+## Reset
+tech_school_events.2.t:0 "Tech School"
+tech_school_events.2.d:0 "Restore the Academia?"
+tech_school_events.2.f:0 "Many within our academic circles feel that the present direction of our academia suffers from an undue bias, and that we should return for a more traditional academic profile."
+
+## Event Options
+tech_school_events.1.a:0 "Military-Industrial Complex"
+tech_school_events.1.b:0 "Corporative Industrialism"
+tech_school_events.1.c:0 "Avantgarde Intelligentsia"
+tech_school_events.1.e:0 "Traditional School"
+
+tech_school_events.2.a:0 "Restore the Academia"
+tech_school_events.2.b:0 "We have changed our minds"
+
+## Modifiers
+military_industrial_complex:0 "Military-Industrial Complex"
+tech_school_events.1.a_desc:0 "Cooperation between private industrialists and the military, on the issues of national defense and war policy, have led to the development of a particularly important web of connections, personal ties and acquaintances, with just an ever so slight hint of corruption, that can best be described as a Military-Industrial Complex. By furthering the goals and ambitions of these informal networks within our academia, we can boost industrial and military research, at the expense of navy and culture."
+
+corporative_industrialism:0 "Corporative Industrialism"
+tech_school_events.1.b_desc:0 "Capital and government in our country have, for some time, been doing their utmost to weave between them an intricate web of personal relations, that has increasingly come to assume the forms of a symbiotic relationship of mutual dependence. By further promoting these connections between the public and private spheres of our society, we can vastly increase our technological progress in the fields of industry, at the expense, however of research in other fields."
+
+avantgarde_intelligentsia:0 "Avantgarde Intelligentsia"
+tech_school_events.1.c_desc:0 "A cultural and ideological avantgarde within our country has, during the past years, been undertaking a long march through our academic institutions. By steadily working their way up the rungs of the academic ladder, these radical new ideologues are now in a position to completely subvert our academic institutions to better suit their ideological agenda. By supporting their cause, we can increase the speed of our cultural research, to the detriment, however, of other spheres of intellectual progress."
+
+academic_confusion:0 "Academic Confusion"
+academic_confusion_desc:0 "A lack of clear direction in our academic institutions has led to inefficiency and uncertainty among scholars."
+
+#UPB Decisions
+UPB_afro_brazilian:0 "Integrating the Afro Brazillians"
+UPB_afro_brazilian_desc:0 "The Afro Brazillian community has been a part of our nation for generations, but they have often been marginalized and excluded from mainstream society. By taking steps to integrate them into our society, we can create a more inclusive and equitable nation."
