@@ -1,8 +1,0 @@
-﻿l_english:
- UPB:0 "United kingdom of Portugal and Brazil"
- UPB_ADJ:0 "United kingdom"
-
- #dynamic country names
- dyn_c_federacao_lusofona:0 "Federation of Lusophone Nations"
- dyn_c_federacao_lusofona_ADJ:0 "Lusophone Republic"
- dyn_c_estado_novo:0 "Estado Novo"
